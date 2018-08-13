@@ -8,12 +8,14 @@ body {background-color:gray;
     width: 960px;
     border-left-width: 30px;
     border-right-width: 30px;
+    position: fixed;
+    left:   250px;
 }
 div {
     height: 100px;
     width: 900px;
     background-color: #ebebeb;
-    margin: 14px;
+    margin: 10px;
 }
 .section {
     float: left;
@@ -23,13 +25,13 @@ div {
 .aside {
      float: left;
      height:300px;
-    width: 385px;
+    width: 380px;
     }
 .article {
     height: 200px;
     width: 450px;
     background-color: gray;
-   outline: gray solid 10px;
+    outline: gray solid 5px;
     text-align: center;
     color:whitesmoke;
 } 
@@ -41,9 +43,8 @@ div {
 }   
 .footer {
     position: absolute;
-    bottom: 5%;
-    height: 80px;
-    width: 865px;
+    bottom: -20%;
+    height: 100px;
+    width: 900px;
     background-color: #ebebeb;
-    padding: 20px;
 }
